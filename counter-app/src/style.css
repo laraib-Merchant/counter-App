@@ -1,0 +1,41 @@
+.App {
+    background-color: #BF40BF;
+    margin: auto;
+    margin-top: 15%;
+    padding: 5%;
+    width: 200px;
+}
+
+.counter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF40BF;
+    margin: 0;
+    padding: 0;   
+}
+
+.counter button {
+    background-color: #800080;
+    border: 1px solid #BF40BF;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.counter button:hover {
+    background-color: #BF40BF;
+    border: 1px solid #800080;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
